@@ -50,5 +50,5 @@ def run_program(program:str):
                 i = blocks[i]
         i += 1
 
-with open('hello_world.b', encoding='utf-8') as file:
+with open('examples/hello_world.b', encoding='utf-8') as file:
     run_program(file.read())
